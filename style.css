@@ -1,0 +1,130 @@
+/* =========================
+   GLOBAL STYLES (Cascading)
+   ========================= */
+* {
+    box-sizing: border-box; /* Ensures padding & border don’t break layout */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f5f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADER (Box Model Demo)
+   ========================= */
+.site-header {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 30px;        /* Inner spacing (padding) */
+    margin-bottom: 30px; /* Outer spacing (margin) */
+    border-bottom: 5px solid #38bdf8; /* Border example */
+    text-align: center;
+}
+
+.main-title {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    margin-bottom: 15px;
+}
+
+/* =========================
+   NAVIGATION
+   ========================= */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px; /* Padding increases clickable area */
+    border-radius: 5px;
+}
+
+.nav-list a:hover {
+    background-color: #38bdf8;
+    color: #1e293b;
+}
+
+/* =========================
+   MAIN CONTAINER
+   ========================= */
+.container {
+    max-width: 900px;
+    margin: auto;        /* Center container horizontally */
+    padding: 0 20px;
+}
+
+/* =========================
+   CARD (BOX MODEL CORE)
+   ========================= */
+.card {
+    background-color: #ffffff;
+    padding: 25px;       /* Space inside card */
+    margin-bottom: 30px; /* Space between cards */
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+}
+
+/* Temporary border visualization (learning purpose) */
+/*
+.card {
+    border: 2px dashed red;
+}
+*/
+
+/* =========================
+   HEADINGS & TEXT
+   ========================= */
+.section-title {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 5px solid #38bdf8;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+/* =========================
+   IMAGE (BOX MODEL)
+   ========================= */
+.profile-img {
+    width: 140px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 3px solid #38bdf8;
+    border-radius: 50%;
+}
+
+/* =========================
+   LISTS
+   ========================= */
+.skill-list {
+    padding-left: 20px;
+}
+
+.skill-list li {
+    margin-bottom: 8px;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+.site-footer {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
